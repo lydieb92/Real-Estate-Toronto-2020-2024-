@@ -1,2 +1,1 @@
 CREATE DATABASE Realestate_project
-DROP TABLE Demographics
