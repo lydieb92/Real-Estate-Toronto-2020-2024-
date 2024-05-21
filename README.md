@@ -87,3 +87,12 @@ WHERE
   days_on_market IS NOT NULL;
 ```
 <img src=".vscode/Image 2.png">
+
+(This graph was created using Excel). 
+
+As we can see from this graph, the days on the market for all residential units in Toronto have been increasing since 2021, further indicating that 2024 is a buyer's market.
+
+## Sale-to-List Price Ratio
+
+This query helps assess how properties sell relative to their listing prices.
+
