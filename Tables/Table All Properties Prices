@@ -1,0 +1,13 @@
+CREATE TABLE All_Properties(
+ID INT,
+Info_Date Date,
+Avg_Price DECIMAL(13,2),
+Avg_Sold_Price DECIMAL(13,2),
+Days_On_Market INTEGER,
+Price_Index INTEGER
+);
+
+
+COPY All_Properties
+FROM '/private/var/tmp/CSV files/All properties prices.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
