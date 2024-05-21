@@ -1,0 +1,3 @@
+# Introduction
+
+Delve into the Toronto real estate market to understand current trends and potential forecasts through an analysis designed to answer the following questions:
