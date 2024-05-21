@@ -132,3 +132,5 @@ ORDER BY
    year DESC;
 ```
  <img src=".vscode/All properties average price image.png">
+ <img src=".vscode/Condos Average Prices image.png">
+  <img src=".vscode/Condos Average Prices image.png">
