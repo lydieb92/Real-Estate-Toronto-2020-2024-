@@ -96,3 +96,15 @@ As we can see from this graph, the days on the market for all residential units 
 
 This query helps assess how properties sell relative to their listing prices.
 
+``` sql
+SELECT
+ info_date,
+ TO_CHAR(avg_price, 'FM$999,999,999.00') AS avg_price,
+ TO_CHAR(avg_sold_price, 'FM$999,999,999.00') AS avg_sold_price,
+ (avg_sold_price / avg_price * 100) AS STL_Price_Ratio
+FROM
+ all_properties;
+ ```
+ 
+
+
