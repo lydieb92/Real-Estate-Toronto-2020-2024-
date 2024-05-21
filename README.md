@@ -62,4 +62,5 @@ ORDER BY
 ```
 ## Residential Units Listings and Residential Units Sold (Feb 2020-2024)
 
+<img src="/Users/xinm1/Library/Containers/com.facebook.archon.loginhelper/Data/tmp/.vscode/Image 1.png">
 
