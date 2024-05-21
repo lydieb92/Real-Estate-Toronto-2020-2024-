@@ -64,5 +64,26 @@ ORDER BY
 
 <img src=".vscode/Image 1.png">
 
+(This graph was created using Excel). 
+
+As we can see from this graph, the number of residential unit listings outnumbers the residential units sold. This indicates that 2024 is a buyer's market.
 
 
+
+## Days on the Market
+
+I created an SQL query to calculate the average days on market (DOM) for properties listed from 2020 to early 2024. 
+
+``` sql
+SELECT
+  AVG(CASE WHEN info_date >= '2020-01-01' AND info_date < '2021-01-01' THEN days_on_market END) AS DOM_2020,
+  AVG(CASE WHEN info_date >= '2021-01-01' AND info_date < '2022-01-01' THEN days_on_market END) AS DOM_2021,
+  AVG(CASE WHEN info_date >= '2022-01-01' AND info_date < '2023-01-01' THEN days_on_market END) AS DOM_2022,
+  AVG(CASE WHEN info_date >= '2023-01-01' AND info_date < '2024-01-01' THEN days_on_market END) AS DOM_2023,
+  AVG(CASE WHEN info_date >= '2024-01-01' AND info_date < '2024-03-01' THEN days_on_market END) AS DOM_2024
+FROM
+  all_properties
+WHERE
+  days_on_market IS NOT NULL;
+```
+<img src=".vscode/Image 2.png">
