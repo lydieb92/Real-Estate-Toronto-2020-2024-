@@ -107,4 +107,8 @@ FROM
  ```
  <img src=".vscode/Image 3.png">
 
+ (This graph was created using Excel).
+
+The Sale-to-List Price Ratio has been consistently close to 100%, except for a few exceptional months. A Sale-to-List Price Ratio exceeding 100% means that a residential unit sells for more than its listing price, which typically indicates a seller's market.
+
 
