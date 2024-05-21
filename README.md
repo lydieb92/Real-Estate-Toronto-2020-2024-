@@ -131,3 +131,4 @@ GROUP BY
 ORDER BY
    year DESC;
 ```
+<img src=".vscode/Image 4.png">
