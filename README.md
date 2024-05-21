@@ -133,4 +133,4 @@ ORDER BY
 ```
  <img src=".vscode/All properties average price image.png">
  <img src=".vscode/Condos Average Prices image.png">
-  <img src=".vscode/Condos Average Prices image.png">
+  <img src=".vscode/Condo Townhomes Average Prices Image.png">
