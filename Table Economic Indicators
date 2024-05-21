@@ -1,0 +1,12 @@
+CREATE TABLE Economic_Indicators (
+ID INT, 
+Info_Date Date,
+Prime_Rate DECIMAL(13,2), 
+Inflation_Rate DECIMAL(13,2), 
+GDP_MoM DECIMAL(13,2),
+Unemployment_Rate DECIMAL(13,2)
+);
+
+COPY Economic_Indicators
+FROM '/private/var/tmp/CSV files/ Economic indicators .csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');

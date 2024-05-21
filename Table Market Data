@@ -1,0 +1,11 @@
+CREATE TABLE Market_Data (
+ID INT,
+Info_Date Date,
+House_Listing DECIMAL(13,2),
+Houses_Sold DECIMAL(13,2),
+Residential_Units_Created DECIMAL(13,2)
+);
+
+COPY Market_Data
+FROM '/private/var/tmp/CSV files/Market data .csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
