@@ -45,3 +45,21 @@ Each query in this text aims to investigate the Toronto (Canada) real estate mar
 ## Supply and Demand Analysis
 
 I rounded the annual totals of house listings (Total_HL) and houses sold (Total_HS) from the market_data table. After filtering for the specified years, I grouped and ordered the data by year in descending order. This made it easy to see yearly trends in listings and sales.
+
+``` sql
+SELECT
+   EXTRACT(YEAR FROM info_date) AS year,
+   ROUND(SUM(House_listing)) AS Total_HL, 
+   ROUND(SUM(Houses_Sold)) AS Total_HS 
+FROM
+   market_data
+WHERE
+   EXTRACT(YEAR FROM info_date) IN (2020, 2021, 2022, 2023, 2024)
+GROUP BY
+   EXTRACT(YEAR FROM info_date)
+ORDER BY
+   year DESC;
+```
+## Residential Units Listings and Residential Units Sold (Feb 2020-2024)
+
+
