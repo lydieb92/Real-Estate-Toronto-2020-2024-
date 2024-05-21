@@ -131,3 +131,4 @@ GROUP BY
 ORDER BY
    year DESC;
 ```
+ <img src=".vscode/All properties average price image.png">
