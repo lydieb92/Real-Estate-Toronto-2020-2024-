@@ -105,6 +105,6 @@ SELECT
 FROM
  all_properties;
  ```
- 
+ <img src=".vscode/Image 3.png">
 
 
