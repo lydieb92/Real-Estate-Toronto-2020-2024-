@@ -111,4 +111,23 @@ FROM
 
 The Sale-to-List Price Ratio has been consistently close to 100%, except for a few exceptional months. A Sale-to-List Price Ratio exceeding 100% means that a residential unit sells for more than its listing price, which typically indicates a seller's market.
 
+## Residential Unit Price Evolution
 
+I wrote an SQL query to calculate average property prices annually from 2020 to 2024.
+
+I did the same for different subcategories: 1. Condos, 2. Condo Townhomes, 3. Freehold Townhomes, 4. Detached Homes.
+
+``` sql
+SELECT
+   EXTRACT(YEAR FROM info_date) AS year,
+   ROUND(SUM(House_listing)) AS Total_HL, 
+   ROUND(SUM(Houses_Sold)) AS Total_HS 
+FROM
+   market_data
+WHERE
+   EXTRACT(YEAR FROM info_date) IN (2020, 2021, 2022, 2023, 2024)
+GROUP BY
+   EXTRACT(YEAR FROM info_date)
+ORDER BY
+   year DESC;
+```
