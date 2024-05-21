@@ -1,0 +1,12 @@
+CREATE TABLE Condo_Townhomes(
+ Info_Date Date,
+Avg_Price DECIMAL(13,2), 
+Avg_Sold_Price DECIMAL(13,2), 
+Days_On_Market INTEGER,
+Price_Index INTEGER
+);
+
+
+COPY Condo_Townhomes
+FROM '/private/var/tmp/CSV files/Condo townhomes prices.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
