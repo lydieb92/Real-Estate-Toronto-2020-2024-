@@ -180,7 +180,7 @@ GROUP BY
 ORDER BY
    year ASC;
 ```
-<img src=".vscode/Average MoM.png"> 
+<img src=".vscode/GDP Growth Per Year.png"> 
 
 As we can see in the table above, GDP has experienced fluctuations since 2020, with a significant drop in GDP growth that year due to the COVID-19 pandemic. However, it has since stabilized. This stabilization indicates that as people earned more post-pandemic, their ability to afford homes increased, leading to higher demand in the real estate market. Additionally, higher prime rates have been used since 2021 to control inflation, which decreases demand and drives real estate prices down to encourage affordability.
 
