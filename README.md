@@ -201,3 +201,4 @@ GROUP BY
 ORDER BY
    year ASC;
 ```
+ <img src=".vscode/Average Unemployment Rates.png">
