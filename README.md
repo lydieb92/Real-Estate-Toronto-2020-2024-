@@ -159,7 +159,7 @@ GROUP BY
 ORDER BY
    year ASC;
 ```
-<img src=".vscode/Average prime rates.pn"> 
+<img src=".vscode/Prime rates PM.png"> 
 (Image created with ChatGPT4o)
 
 We can observe a significant increase in prime rates starting from 2022, which explains why the average prices of residential units have dropped since then. This rise in prime rates typically results in higher mortgage rates, decreasing home affordability and reducing demand, thus potentially leading to lower residential unit prices.
