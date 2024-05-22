@@ -136,3 +136,24 @@ ORDER BY
  <img src=".vscode/Condo Townhomes.png">
  <img src=".vscode/Freehold.png">
  <img src=".vscode/Detached homes.png"> 
+(These graphs were created using Excel)
+
+For all properties, average prices have dropped since 2022. However, the prices for condo townhomes have slightly increased during the same period, indicating that it has been a buyer's market since 2022.
+
+**How have economic and demographic factors influenced real estate market prices over the past four years?**
+
+**a.Prime rates**
+I created an SQL query to calculate the average prime rate annually from 2020 to 2024.
+``` sql
+SELECT
+   EXTRACT(YEAR FROM info_date) AS year,
+   ROUND(AVG(prime_rate), 2) AS Average_PrimeRate 
+FROM
+   economic_indicators
+WHERE
+   EXTRACT(YEAR FROM info_date) IN (2020, 2021, 2022, 2023, 2024)
+GROUP BY
+   EXTRACT(YEAR FROM info_date)
+ORDER BY
+   year ASC;
+```
