@@ -162,3 +162,23 @@ ORDER BY
 ```
 <img src=".vscode/Average prime rates.png"> 
 (Image created with ChatGPT4o)
+
+We can observe a significant increase in prime rates starting from 2022, which explains why the average prices of residential units have dropped since then. This rise in prime rates typically results in higher mortgage rates, decreasing home affordability and reducing demand, thus potentially leading to lower residential unit prices.
+
+## GDP MoM
+
+I created an SQL query to calculate and format the average monthly GDP growth rates annually from 2020 to 2024.
+``` sql
+SELECT
+   EXTRACT(YEAR FROM info_date) AS year,
+   CONCAT(ROUND(AVG(gdp_mom), 2), '%') AS Average_GDPMoM
+FROM
+   economic_indicators
+WHERE
+   EXTRACT(YEAR FROM info_date) IN (2020, 2021, 2022, 2023, 2024)
+GROUP BY
+   EXTRACT(YEAR FROM info_date)
+ORDER BY
+   year ASC;
+```
+<img src=".vscode/Average MoM.png"> 
