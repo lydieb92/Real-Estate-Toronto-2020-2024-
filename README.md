@@ -202,3 +202,23 @@ ORDER BY
    year ASC;
 ```
  <img src=".vscode/Average Unemployment Rates.png">
+ 
+ From 2020 to 2021, during the pandemic, unemployment soared, leading to lower residential unit prices and reduced prime rates. These conditions influenced central bank policies aimed at boosting GDP growth and job creation, directly impacting mortgage rates. Since 2021, as GDP grew, the unemployment rate decreased, and prime rates increased to control inflation, causing real estate prices to drop.
+
+ ## Average salary (2020-2024)
+
+ This query extracts the year from info_date and calculates the average household income for each year from 2020 to 2024 in the demographics table.
+ ``` sql
+SELECT
+  EXTRACT(YEAR FROM info_date) AS year,
+  TO_CHAR(ROUND(AVG(household_income), 2), 'FM$999,999,999.00') AS avg_household_income
+FROM
+  demographics
+WHERE
+  EXTRACT(YEAR FROM info_date) IN (2020, 2021, 2022, 2023, 2024)
+GROUP BY
+  EXTRACT(YEAR FROM info_date)
+ORDER BY
+  year DESC;
+```
+<img src=".vscode/Average Household Income.png">
