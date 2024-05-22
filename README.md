@@ -131,8 +131,8 @@ GROUP BY
 ORDER BY
    year DESC;
 ```
- <img src=".vscode/All Properties.png">
- <img src=".vscode/Condos .png">
- <img src=".vscode/Condo Townhomes .png">
- <img src=".vscode/Freehold image.png">
+ <img src=".vscode/All properties.png">
+ <img src=".vscode/Condos.png">
+ <img src=".vscode/Condo Townhomes.png">
+ <img src=".vscode/Freehold.png">
  <img src=".vscode/Detached Homes.png"> 
