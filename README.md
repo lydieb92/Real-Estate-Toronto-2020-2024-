@@ -38,7 +38,8 @@ c. **Visual Studio Code**: My go-to for database management and executing SQL qu
 d. **Git & GitHub**: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
 
 e. **Excel**: A versatile tool for creating graphs and forecasting trends.
-The Analysis
+
+## The Analysis
 
 Each query in this text aims to investigate the Toronto (Canada) real estate market from 2020 to 2024(February). I chose Toronto because I am a Torontonian.
 
