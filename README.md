@@ -164,25 +164,25 @@ ORDER BY
 
 We can observe a significant increase in prime rates starting from 2022, which explains why the average prices of residential units have dropped since then. This rise in prime rates typically results in higher mortgage rates, decreasing home affordability and reducing demand, thus potentially leading to lower residential unit prices.
 
-## GDP MoM
+## GDP Growth Rate Per Year (2020-2023)
 
-I created an SQL query to calculate and format the average monthly GDP growth rates annually from 2020 to 2024.
+I created an SQL query to display and format the GDP Growth Rate annually from 2020 to 2023.
 ``` sql
 SELECT
-   EXTRACT(YEAR FROM info_date) AS year,
-   CONCAT(ROUND(AVG(gdp_mom), 2), '%') AS Average_GDPMoM
+   EXTRACT(YEAR FROM year) AS year,
+   CONCAT(ROUND(AVG(gdp_growth_rate) * 100, 4), '%') AS avg_gdp_growth_rate
 FROM
-   economic_indicators
+   gdp_growth_peryear
 WHERE
-   EXTRACT(YEAR FROM info_date) IN (2020, 2021, 2022, 2023, 2024)
+   EXTRACT(YEAR FROM year) IN (2020, 2021, 2022, 2023)
 GROUP BY
-   EXTRACT(YEAR FROM info_date)
+   EXTRACT(YEAR FROM year)
 ORDER BY
    year ASC;
 ```
 <img src=".vscode/Average MoM.png"> 
 
-As we can see in the table above, GDP has experienced fluctuations since 2020. Despite post-pandemic GDP growth in 2021, 2024 marks another period of growth. This indicates that as people earn more, their ability to afford homes increases, leading to higher demand in the real estate market. It also explains the higher prime rates used to control inflation since 2021, which decreases demand and drives real estate prices down to encourage affordability.
+As we can see in the table above, GDP has experienced fluctuations since 2020, with a significant drop in GDP growth that year due to the COVID-19 pandemic. However, it has since stabilized. This stabilization indicates that as people earned more post-pandemic, their ability to afford homes increased, leading to higher demand in the real estate market. Additionally, higher prime rates have been used since 2021 to control inflation, which decreases demand and drives real estate prices down to encourage affordability.
 
 ## Unemployment rates 
 
