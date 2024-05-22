@@ -166,7 +166,7 @@ We can observe a significant increase in prime rates starting from 2022, which e
 
 ## GDP Growth Rate Per Year (2020-2023)
 
-I created an SQL query to display and format the GDP Growth Rate annually from 2020 to 2023.
+I created an SQL query to display and format the annual GDP Growth Rate from 2020 to 2023.
 ``` sql
 SELECT
    EXTRACT(YEAR FROM year) AS year,
