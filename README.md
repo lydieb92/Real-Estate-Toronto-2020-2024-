@@ -236,3 +236,21 @@ I exported a CSV file containing tables that show the price evolution for all ca
 **=FORECAST.ETS(target_date, values, timeline, [seasonality], [data_completion], [aggregation])**
 
 ## All Properties Forecast
+
+<img src=".vscode/Forecast - All Properties.png">
+
+## Condos Forecast
+
+<img src=".vscode/Forecast - Condos.png">
+
+## Condo Townhomes Forecast
+
+<img src=".vscode/Forecast - Condo Townhomes.png">
+
+## Freehold Townhomes
+
+<img src=".vscode/Forecast - Freehold Townhomes.png">
+
+## Detached Homes
+
+<img src=".vscode/Forecast - Detached homes.png">
