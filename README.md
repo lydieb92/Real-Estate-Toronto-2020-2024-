@@ -271,7 +271,7 @@ I exported a CSV file containing tables that show the price evolution for all ca
 
 # Observation
 
-- Most people cannot afford a home in Toronto. With an average household income (after-tax) between $74,000 and $76,000, the maximum house price an average Torontonian can afford is $330,000, whereas the average price of a residential unit is above $900,000. Even a condo is around $750,000. This disparity explains why the supply is greater than the demand.
+- Most people cannot afford a home in Toronto. With an average household income (after-tax) between $74,000 and $76,000, the maximum house price an average Torontonian can afford is $330,000 if they make a down payment of $40,000({[calculated with ratehub][(https://www.ratehub.ca/mortgage-affordability-calculator) whereas the average price of a residential unit is above $900,000. Even a condo is around $750,000. This disparity explains why the supply is greater than the demand.
   
 - Because most Torontonians cannot afford a home, it is likely that more people are renting rather than buying. Those who do decide to buy often take a long time before making a purchase, which contributes to the increase in days on market. This situation is further compounded by the high average prices of residential units and condos in Toronto, which are significantly above what the average household income can support.
   
