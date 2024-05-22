@@ -222,3 +222,17 @@ ORDER BY
   year DESC;
 ```
 <img src=".vscode/Average Household Income.png">
+
+The average household income (after-tax) from 2020 to 2024 ranges between $74,000 and $76,000. On Ratehub.ca, if you enter these values along with a down payment of $40,000, the maximum home price you can afford is approximately $330,000.
+
+# What can we forecast for the Toronto real estate market in the next five years?
+
+## Forecast Regression Analysis
+
+With regression analysis, we can make assumptions about what the real estate market will be like if it continues to follow the same patterns.
+
+I exported a CSV file containing tables that show the price evolution for all categories of residential units (condos, condo townhomes, townhomes, and detached homes) in Toronto. Then I created an Excel table where I used the forecast formula below for the years 2024-2029.
+
+**=FORECAST.ETS(target_date, values, timeline, [seasonality], [data_completion], [aggregation])**
+
+## All Properties Forecast
