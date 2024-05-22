@@ -1,0 +1,13 @@
+CREATE TABLE GDP_Growth_PerYear(
+   Year DATE,
+   GDP_Growth_Rate DECIMAL(13,2)
+);
+
+COPY GDP_Growth_PerYear
+FROM '/private/var/tmp/CSV files/GDP Growth Rate Per Year.csv'
+WITH (
+   FORMAT csv,
+   HEADER true,
+   DELIMITER ',',
+   ENCODING 'UTF8'
+);
