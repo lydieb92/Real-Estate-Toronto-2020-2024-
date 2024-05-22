@@ -220,7 +220,7 @@ GROUP BY
 ORDER BY
   year DESC;
 ```
-<img src=".vscode/Average Unemployment Rates.png">
+<img src=".vscode/Average Household Income PM.png">
 
 The average household income (after-tax) from 2020 to 2024 ranges between $74,000 and $76,000. On Ratehub.ca, if you enter these values along with a down payment of $40,000, the maximum home price you can afford is approximately $330,000.
 
