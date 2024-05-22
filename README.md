@@ -254,3 +254,25 @@ I exported a CSV file containing tables that show the price evolution for all ca
 ## Detached Homes
 
 <img src=".vscode/Forecast - Detached homes.png">
+
+# Conclusion
+
+## Insights
+
+**Supply vs. Demand**: A higher supply than demand suggests that 2024 is a buyer's market.
+
+**Days on Market**: An increase in days on market since 2021 suggests that 2024 is a buyer's market.
+
+**Sales-to-Price Ratio**: A ratio almost always close to 100% suggests that 2024 is a seller's market.
+
+**Residential Unit Price Evolution correlated with economic factors**: There has been a drop in prices since 2022. The pandemic drove an already expensive real estate market to unprecedented levels as prime rates were significantly lowered to make borrowing cheaper and stimulate the economy. Post-pandemic GDP growth and higher prime rates to control inflation have helped temper the real estate market and reduce prices. 
+
+**Real Estate Forecasts for the Next 5 Years**: An increase in real estate prices is expected, with most properties potentially exceeding or getting close to the $1 million mark.
+
+## Observation
+
+- Most people cannot afford a home in Toronto. With an average household income (after-tax) between $74,000 and $76,000, the maximum house price an average Torontonian can afford is $330,000, whereas the average price of a residential unit is above $900,000. Even a condo is around $750,000. This disparity explains why the supply is greater than the demand.
+  
+- Because most Torontonians cannot afford a home, it is likely that more people are renting rather than buying. Those who do decide to buy often take a long time before making a purchase, which contributes to the increase in days on market. This situation is further compounded by the high average prices of residential units and condos in Toronto, which are significantly above what the average household income can support.
+  
+- The continuous rise in property prices in Toronto is driven by existing homeowners accumulating wealth through long-term investments, holding properties for optimal economic conditions, leveraging properties as collateral for further investments, and a capitalist cycle that benefits the wealthy, which, combined with limited housing supply and market speculation, maintains high demand and high prices.
