@@ -1,6 +1,6 @@
 CREATE TABLE GDP_Growth_PerYear(
    Year DATE,
-   GDP_Growth_Rate DECIMAL(13,2)
+   GDP_Growth_Rate DECIMAL(13,5)
 );
 
 COPY GDP_Growth_PerYear
