@@ -66,10 +66,9 @@ ORDER BY
 
 <img src=".vscode/House Listings VS House Sales.png">
 
-(This graph was created using Excel). 
+(This graph was created using Excel). **The numbers in 2024 are significantly lower because they represent only the first two months of the year**.
 
 As we can see from this graph, the number of residential unit listings outnumbers the residential units sold. This indicates that 2024 is a buyer's market.
-
 
 
 ## Days on the Market
@@ -137,7 +136,7 @@ ORDER BY
  <img src=".vscode/Condos.png">
  <img src=".vscode/Condo Townhomes.png">
  <img src=".vscode/Freehold.png">
- <img src=".vscode/Detached homes.png"> 
+ <img src=".vscode/Detached Homes.png"> 
 (These graphs were created using Excel)
 
 For all properties, average prices have dropped since 2022. However, the prices for condo townhomes have slightly increased during the same period, indicating that it has been a buyer's market since 2022.
@@ -160,7 +159,7 @@ GROUP BY
 ORDER BY
    year ASC;
 ```
-<img src=".vscode/Average prime rates.png"> 
+<img src=".vscode/Average prime rates.pn"> 
 (Image created with ChatGPT4o)
 
 We can observe a significant increase in prime rates starting from 2022, which explains why the average prices of residential units have dropped since then. This rise in prime rates typically results in higher mortgage rates, decreasing home affordability and reducing demand, thus potentially leading to lower residential unit prices.
@@ -221,7 +220,7 @@ GROUP BY
 ORDER BY
   year DESC;
 ```
-<img src=".vscode/Average Household Income.png">
+<img src=".vscode/Average Unemployment Rates.png">
 
 The average household income (after-tax) from 2020 to 2024 ranges between $74,000 and $76,000. On Ratehub.ca, if you enter these values along with a down payment of $40,000, the maximum home price you can afford is approximately $330,000.
 
@@ -253,7 +252,7 @@ I exported a CSV file containing tables that show the price evolution for all ca
 
 ## Detached Homes
 
-<img src=".vscode/Forecast - Detached homes.png">
+<img src=".vscode/Forecast - Detached Homes.png">
 
 # Conclusion
 
