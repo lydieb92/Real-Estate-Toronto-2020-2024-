@@ -64,7 +64,7 @@ ORDER BY
 ```
 ## Residential Units Listings and Residential Units Sold (Feb 2020-2024)
 
-<img src=".vscode/Image 1.png">
+<img src=".vscode/House Listings VS House Sales.png">
 
 (This graph was created using Excel). 
 
