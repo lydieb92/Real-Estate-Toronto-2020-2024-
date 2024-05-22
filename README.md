@@ -269,7 +269,7 @@ I exported a CSV file containing tables that show the price evolution for all ca
 
 **Real Estate Forecasts for the Next 5 Years**: An increase in real estate prices is expected, with most properties potentially exceeding or getting close to the $1 million mark.
 
-## Observation
+# Observation
 
 - Most people cannot afford a home in Toronto. With an average household income (after-tax) between $74,000 and $76,000, the maximum house price an average Torontonian can afford is $330,000, whereas the average price of a residential unit is above $900,000. Even a condo is around $750,000. This disparity explains why the supply is greater than the demand.
   
