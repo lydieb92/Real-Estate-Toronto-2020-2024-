@@ -188,3 +188,16 @@ As we can see in the table above, GDP has experienced fluctuations since 2020. D
 ## Unemployment rates 
 
 I wrote a SQL query to analyze and summarize the average unemployment rates for each year from 2020 to 2024. 
+``` sql
+SELECT
+   EXTRACT(YEAR FROM info_date) AS year,
+   CONCAT(ROUND(AVG(unemployment_rate), 2), '%') AS Average_UnemploymentRate
+FROM
+   economic_indicators
+WHERE
+   EXTRACT(YEAR FROM info_date) IN (2020, 2021, 2022, 2023, 2024)
+GROUP BY
+   EXTRACT(YEAR FROM info_date)
+ORDER BY
+   year ASC;
+```
