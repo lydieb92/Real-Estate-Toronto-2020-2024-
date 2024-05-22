@@ -200,7 +200,7 @@ GROUP BY
 ORDER BY
    year ASC;
 ```
- <img src=".vscode/Average Unemployment Rates.png">
+ <img src=".vscode/Unemployment Rates.png">
  
  From 2020 to 2021, during the pandemic, unemployment soared, leading to lower residential unit prices and reduced prime rates. These conditions influenced central bank policies aimed at boosting GDP growth and job creation, directly impacting mortgage rates. Since 2021, as GDP grew, the unemployment rate decreased, and prime rates increased to control inflation, causing real estate prices to drop.
 
