@@ -239,21 +239,61 @@ I exported a CSV file containing tables that show the price evolution for all ca
 
 <img src=".vscode/Forecast - All Properties.png">
 
+The annual increase rates for all property forecasts are as follows:
+
+From 2024 to 2025: **4.75%**
+From 2025 to 2026: **2.04%**
+From 2026 to 2027: **2.44%**
+From 2027 to 2028: **2.30%**
+From 2028 to 2029: **2.23%**
+
 ## Condos Forecast
 
 <img src=".vscode/Forecast - Condos.png">
+
+The annual increase rates for all condo forecasts are as follows:
+
+From 2024 to 2025: **4.25%**
+From 2025 to 2026: **1.49%**
+From 2026 to 2027: **2.17%**
+From 2027 to 2028: **1.82%**
+From 2028 to 2029: **1.81%**
 
 ## Condo Townhomes Forecast
 
 <img src=".vscode/Forecast - Condo Townhomes.png">
 
+The annual increase rates for all townhome forecasts are as follows: 
+
+From 2024 to 2025: **5.81%**
+From 2025 to 2026: **3.78%**
+From 2026 to 2027: **4.04%**
+From 2027 to 2028: **3.79%**
+From 2028 to 2029: **3.64%**
+
 ## Freehold Townhomes
 
 <img src=".vscode/Forecast - Freehold Townhomes.png">
 
+The annual increase rates for all freehold townhome forecasts are as follows: 
+
+From 2024 to 2025: **3.46%**
+From 2025 to 2026: **1.68%**
+From 2026 to 2027: **2.23%**
+From 2027 to 2028: **1.87%**
+From 2028 to 2029: **1.85%**
+
 ## Detached Homes
 
 <img src=".vscode/Forecast - Detached Homes.png">
+
+The annual increase rates for all detached home forecasts are as follows: 
+
+From 2024 to 2025: **5.51%**
+From 2025 to 2026: **1.41%**
+From 2026 to 2027: **2.14%**
+From 2027 to 2028: **1.97%**
+From 2028 to 2029: **1.90%**
 
 # Conclusion
 
