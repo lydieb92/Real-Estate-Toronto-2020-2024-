@@ -42,6 +42,8 @@ The Analysis
 
 Each query in this text aims to investigate the Toronto (Canada) real estate market from 2020 to 2024(February). I chose Toronto because I am a Torontonian.
 
+# Is 2024 a buyer's or seller's market?
+
 ## Supply and Demand Analysis
 
 I rounded the annual totals of house listings (Total_HL) and houses sold (Total_HS) from the market_data table. After filtering for the specified years, I grouped and ordered the data by year in descending order. This made it easy to see yearly trends in listings and sales.
