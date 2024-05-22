@@ -135,4 +135,4 @@ ORDER BY
  <img src=".vscode/Condos.png">
  <img src=".vscode/Condo Townhomes.png">
  <img src=".vscode/Freehold.png">
- <img src=".vscode/Detached Homes.png"> 
+ <img src=".vscode/Detached homes.png"> 
