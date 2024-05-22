@@ -182,3 +182,9 @@ ORDER BY
    year ASC;
 ```
 <img src=".vscode/Average MoM.png"> 
+
+As we can see in the table above, GDP has experienced fluctuations since 2020. Despite post-pandemic GDP growth in 2021, 2024 marks another period of growth. This indicates that as people earn more, their ability to afford homes increases, leading to higher demand in the real estate market. It also explains the higher prime rates used to control inflation since 2021, which decreases demand and drives real estate prices down to encourage affordability.
+
+## Unemployment rates 
+
+I wrote a SQL query to analyze and summarize the average unemployment rates for each year from 2020 to 2024. 
