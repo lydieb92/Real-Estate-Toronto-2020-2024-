@@ -144,7 +144,7 @@ For all properties, average prices have dropped since 2022. However, the prices 
 
 # How have economic and demographic factors influenced real estate market prices over the past four years?
 
-## a. Prime rates
+## Prime rates
 
 I created an SQL query to calculate the average prime rate annually from 2020 to 2024.
 ``` sql
@@ -160,3 +160,5 @@ GROUP BY
 ORDER BY
    year ASC;
 ```
+<img src=".vscode/Average prime rates.png"> 
+(Image created with ChatGPT4o)
