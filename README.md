@@ -140,9 +140,9 @@ ORDER BY
 
 For all properties, average prices have dropped since 2022. However, the prices for condo townhomes have slightly increased during the same period, indicating that it has been a buyer's market since 2022.
 
-**How have economic and demographic factors influenced real estate market prices over the past four years?**
+# How have economic and demographic factors influenced real estate market prices over the past four years?
 
-##a. Prime rates
+## a. Prime rates
 
 I created an SQL query to calculate the average prime rate annually from 2020 to 2024.
 ``` sql
