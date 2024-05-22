@@ -131,8 +131,8 @@ GROUP BY
 ORDER BY
    year DESC;
 ```
- <img src=".vscode/All properties average price image.png">
- <img src=".vscode/Condos Average Prices image.png">
- <img src=".vscode/Condo Townhomes Average Prices Image.png">
+ <img src=".vscode/All Properties.png">
+ <img src=".vscode/Condos .png">
+ <img src=".vscode/Condo Townhomes .png">
  <img src=".vscode/Freehold image.png">
  <img src=".vscode/Detached Homes.png"> 
